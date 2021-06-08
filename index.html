@@ -130,11 +130,16 @@
 
 					<!-- social icons -->
 					<ul class="social-icons light list-inline mb-0 mt-4">
-						<li class="list-inline-item"><a href="https://www.instagram.com/akhiljith_k_/"><i class="fab fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/akhiljithk112"><i class="fab fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://github.com/Akhiljithk/"><i class="fab fa-github"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-						<li class="list-inline-item"><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+						<li class="list-inline-item"><a href="https://www.instagram.com/akhiljith_k_/"><i
+									class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/akhiljithk112"><i
+									class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/Akhiljithk/"><i
+									class="fab fa-github"></i></a></li>
+						<li class="list-inline-item"><a onclick="facebookAlert()"><i
+									class="fab fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="#contact"><i class="fa fa-envelope"
+									aria-hidden="true"></i></a>
 						</li>
 					</ul>
 
@@ -270,14 +275,15 @@
 										and competitive to the changing scenarios of the world.
 									</p>
 									<div class="mt-3">
-										<a href="Profile.pdf" class="btn btn-default">Download CV</a>
+										<!-- <a href="Profile.pdf" class="btn btn-default">Download CV</a> -->
+										<a onclick="Cvalert()" class="btn btn-default">Download CV</a>
 									</div>
 									<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 								</div>
 								<div class="col-md-6">
 									<p><b>My Skills</b></p>
 									<!-- skill item -->
-									<div class="skill-item">
+									<!-- <div class="skill-item">
 										<div class="skill-info clearfix">
 											<h4 class="float-left mb-3 mt-0">Web Development</h4>
 											<span class="float-right">85%</span>
@@ -289,7 +295,7 @@
 											</div>
 										</div>
 										<div class="spacer" data-height="20"></div>
-									</div>
+									</div> -->
 
 									<!-- skill item -->
 									<div class="skill-item">
@@ -508,11 +514,11 @@
 										<div class="skill-info clearfix">
 											<h4 class="float-left mb-3 mt-0">
 												JavaScript</h4>
-											<span class="float-right">72%</span>
+											<span class="float-right">80%</span>
 										</div>
 										<div class="progress">
 											<div class="progress-bar data-background" role="progressbar"
-												aria-valuemin="0" aria-valuemax="100" aria-valuenow="72"
+												aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"
 												data-color="#0066ff">
 											</div>
 										</div>
@@ -551,7 +557,7 @@
 						<div class="fact-item">
 							<span class="icon icon-fire"></span>
 							<div class="details">
-								<h3 class="mb-0 mt-0 number"><em class="count">7</em></h3>
+								<h3 class="mb-0 mt-0 number"><em class="count">4</em></h3>
 								<p class="mb-0">Projects completed</p>
 							</div>
 						</div>
@@ -561,8 +567,8 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="fact-item">
 							<i class="icon fab fa-github"></i>
-							<a href="https://github.com/Akhiljithk?tab=repositories" class="btn btn-default ml-3">See
-								Projects</a>
+							<a href="https://github.com/Akhiljithk?tab=repositories" class="btn btn-default ml-3">
+								Github</a>
 						</div>
 						<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 					</div>
@@ -862,7 +868,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-4 col-sm-6 grid-item art">
+					<!-- <div class="col-md-4 col-sm-6 grid-item art">
 						<a href="images/works/react-chat-app.png" class="work-image">
 							<div class="portfolio-item rounded shadow-dark">
 								<div class="details">
@@ -876,7 +882,7 @@
 								</div>
 							</div>
 						</a>
-					</div>
+					</div> -->
 				</div>
 
 		</section>
@@ -1243,7 +1249,14 @@
 		<div class="spacer" data-height="96"></div>
 
 	</main>
-
+	<script>
+		function Cvalert() {
+			alert("Removed 1 week ago, will update soon");
+		}
+		function facebookAlert() {
+			alert("Fb illa enik");
+		}
+	</script>
 	<!-- Go to top button -->
 	<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
 
